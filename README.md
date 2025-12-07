@@ -39,12 +39,19 @@ Rappels avant la séance
 
 🏗️ Architecture Technique
 Modèle MVC
----------------------------------------------------------------------------
-|Couche      |	Responsabilités	      |  Exemples de Classes
 ------------------------------------------------------------------------------------
-|Modèle      |	Gestion des données	  |  Film, Seance, Utilisateur, Reservation
-|Vue	       | Interface utilisateur	|  VuePrincipale, VueReservation, VuePaiement
-|Contrôleur	 | Logique métier	        |  ControleurReservation, ControleurPaiement
+| Couche       | Responsabilités              | Exemples de Classes              |
+------------------------------------------------------------------------------------
+| Modèle       | Gestion des données           | Film, Seance, Utilisateur,       |
+|              |                               | Reservation                      |
+------------------------------------------------------------------------------------
+| Vue          | Interface utilisateur         | VuePrincipale,                  |
+|              |                               | VueReservation, VuePaiement     |
+------------------------------------------------------------------------------------
+| Contrôleur   | Logique métier                | ControleurReservation,          |
+|              |                               | ControleurPaiement              |
+------------------------------------------------------------------------------------
+
 
 ------------------------------------------------------------------------------------------------
 📁 Structure du Projet

@@ -102,21 +102,21 @@ Classes : BookingObserver.java, NotificationManager.java, EmailNotifier.java, SM
 
 
 📋 Scénarios d'Utilisation
-1. Réservation Simple:
+* Réservation Simple:
 1. Utilisateur se connecte
 2. Consulte les films disponibles
 3. Sélectionne une séance et des places
 4. Paiement en ligne
 5. Reçoit une confirmation par email
 
-2. Réservation Groupe: 
+* Réservation Groupe: 
 1. Création d'un forfait "Groupe"
 2. Ajout de plusieurs billets
 3. Application d'une remise automatique
 4. Paiement unique
 5. Notifications individuelles
 
-3. Gestion Administrative:
+* Gestion Administrative:
 1. Ajout de nouveaux films
 2. Programmation des séances
 3. Consultation des statistiques

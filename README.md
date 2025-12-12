@@ -50,6 +50,76 @@ Modèle MVC
 
 ------------------------------------------------------------------------------------------------
 📁 Structure du Projet
+ProjetCinema_GL2/
+├── 📂 src/
+│   ├── 📂 com/
+│   │   └── 📂 cinema/
+│   │       ├── 📂 modele/              # Couche Modèle
+│   │       │   ├── Film.java           # Membre 1
+│   │       │   ├── Seance.java         # Membre 1
+│   │       │   ├── Salle.java          # Membre 1
+│   │       │   ├── Utilisateur.java    # Membre 2
+│   │       │   ├── Profil.java         # Membre 2
+│   │       │   ├── Transaction.java    # Membre 3
+│   │       │   ├── Reservation.java    # Membre 5
+│   │       │   └── Notification.java   # Membre 6
+│   │       │
+│   │       ├── 📂 vue/                 # Couche Vue
+│   │       │   ├── VuePrincipale.java
+│   │       │   ├── VueFilm.java
+│   │       │   ├── VueReservation.java # Membre 5
+│   │       │   ├── VuePaiement.java    # Membre 3
+│   │       │   ├── VueUtilisateur.java # Membre 2
+│   │       │   └── VueNotification.java # Membre 6
+│   │       │
+│   │       ├── 📂 controleur/          # Couche Contrôleur
+│   │       │   ├── ControleurPrincipal.java # Membre 1
+│   │       │   ├── ControleurFilm.java
+│   │       │   ├── ControleurReservation.java # Membre 5
+│   │       │   ├── ControleurPaiement.java   # Membre 3
+│   │       │   ├── ControleurUtilisateur.java # Membre 2
+│   │       │   ├── ControleurTarification.java # Membre 4
+│   │       │   └── ControleurNotification.java # Membre 6
+│   │       │
+│   │       └── 📂 patrons/             # Implémentation des 4 patrons
+│   │           ├── 📂 singleton/       # Patron Singleton
+│   │           │   ├── CinemaManager.java     # Membre 1
+│   │           │   └── UserManager.java       # Membre 2
+│   │           │
+│   │           ├── 📂 strategie/       # Patron Stratégie
+│   │           │   ├── 📂 paiement/
+│   │           │   │   ├── PaymentStrategy.java      # Interface - Membre 3
+│   │           │   │   ├── CreditCardPayment.java    # Membre 3
+│   │           │   │   ├── PayPalPayment.java        # Membre 3
+│   │           │   │   └── CashPayment.java          # Membre 3
+│   │           │   │
+│   │           │   └── 📂 tarification/
+│   │           │       ├── PricingStrategy.java      # Interface - Membre 4
+│   │           │       ├── StandardPricing.java      # Membre 4
+│   │           │       ├── StudentPricing.java       # Membre 4
+│   │           │       └── GroupPricing.java         # Membre 4
+│   │           │
+│   │           ├── 📂 composition/     # Patron Composition
+│   │           │   ├── TicketComponent.java    # Classe abstraite - Membre 5
+│   │           │   ├── SingleTicket.java       # Membre 5
+│   │           │   └── TicketPackage.java      # Membre 5
+│   │           │
+│   │           └── 📂 observateur/     # Patron Observateur
+│   │               ├── BookingObserver.java    # Interface - Membre 6
+│   │               ├── BookingSubject.java     # Interface - Membre 6
+│   │               ├── NotificationManager.java # Membre 6
+│   │               ├── EmailNotifier.java      # Membre 6
+│   │               └── SMSNotifier.java        # Membre 6
+│   │
+│   └── Main.java                      # Point d'entrée principal
+│
+├── 📂 test/                           # Tests unitaires
+│   ├── CinemaManagerTest.java         # Membre 1
+│   ├── UserManagerTest.java           # Membre 2
+│   ├── PaymentStrategyTest.java       # Membre 3
+│   ├── PricingStrategyTest.java       # Membre 4
+│   ├── CompositionTest.java           # Membre 5
+│   └── ObserverTest.java              # Membre 6
 
 
 

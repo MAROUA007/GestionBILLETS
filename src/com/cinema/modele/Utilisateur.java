@@ -1,5 +1,6 @@
 package com.cinema.modele;
 
+<<<<<<< HEAD
 public class Utilisateur {
         private String username;
         private String password;

@@ -1,21 +1,38 @@
 package com.cinema.modele;
 
-
-
-
+<<<<<<< HEAD
 public class Utilisateur {
-    private String nomUtilisateur;
-    private String nomComplet;
+        private String username;
+        private String password;
+        private Profil profil;
 
-    public Utilisateur(String nomUtilisateur, String nomComplet) {
-        this.nomUtilisateur = nomUtilisateur;
-        this.nomComplet = nomComplet;
+        // Constructeur
+        public Utilisateur(String username, String password, Profil profil) {
+            this.username = username;
+            this.password = password;
+            this.profil = profil;
+        }
+
+        // Getters
+        public String getUsername() {
+            return username;
+        }
+
+        public String getPassword() {
+            return password;
+        }
+
+        public Profil getProfil() {
+            return profil;
+        }
+
+        // Affichage lisible
+        @Override
+        public String toString() {
+            return "Utilisateur{" +
+                    "username='" + username + '\'' +
+                    ", profil=" + profil +
+                    '}';
+        }
     }
 
-    public String getNomUtilisateur() {
-        return nomUtilisateur;
-    }
-
-    public String getNomComplet() {
-        return nomComplet;
-    

@@ -1,5 +1,11 @@
-package com.cinema;
+package com.cinema;  // IMPORTANT : même nom que le dossier parent
 
+
+<<<<<<< HEAD
+public class Main {
+    public static void main(String[] args) {
+    }
+=======
 
 import com.cinema.controleur.ControleurReservation;
 import com.cinema.modele.Utilisateur;
@@ -44,3 +50,4 @@ public class Main {
         System.out.println("\n=== TESTS TERMINÉS ===");
     }
 }
+

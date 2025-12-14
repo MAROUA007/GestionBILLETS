@@ -1,9 +1,6 @@
-package com.cinema;
+package com.cinema;  // IMPORTANT : même nom que le dossier parent
 
-/**
- * Main
- * Point d'entrée principal
- */
+
 public class Main {
-    // TODO: ajouter attributs et méthodes
-}
+    public static void main(String[] args) {
+    }

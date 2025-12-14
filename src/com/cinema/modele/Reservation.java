@@ -1,16 +1,17 @@
 package com.cinema.modele;
 
 
+import com.cinema.patrons.composition.TicketComponent;
+
 /**
  * Reservation
  * Membre 5 - Couche Modèle
  */
-public class Reservation {
-    // TODO: ajouter attributs et méthodes
-}
 
 public class Reservation {
 
+    public String getId() {
+    }
 
     private String reservationId;
     private Utilisateur utilisateur;

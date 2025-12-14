@@ -1,5 +1,6 @@
 package com.cinema.patrons.composition;
 
+<<<<<<< HEAD
 
 
 public class TicketComponent {
@@ -16,3 +17,12 @@ public abstract class TicketComponent {
 }
 }
 
+=======
+/**
+ * TicketComponent
+ * Classe abstraite - Membre 5
+ */
+public class TicketComponent {
+    // TODO: ajouter attributs et méthodes
+}
+>>>>>>> 94980ff7fd64e952ad36023a89fb569a76ed5df2

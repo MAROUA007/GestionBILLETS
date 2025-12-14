@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
   <component name="MavenProjectsManager">
@@ -13,6 +14,9 @@
 =======
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
 >>>>>>> 4055919289919b5e0cc6e2c3ac9170c6dad608a5
+=======
+  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
+>>>>>>> 94980ff7fd64e952ad36023a89fb569a76ed5df2
   <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="openjdk-24" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

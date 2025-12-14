@@ -1,5 +1,6 @@
 package com.cinema.controleur;
 
+<<<<<<< HEAD
 
 public class ControleurReservation {
 }
@@ -75,3 +76,12 @@ public class ControleurReservation {
     }
 }
 
+=======
+/**
+ * ControleurReservation
+ * Membre 5 - Contrôleur
+ */
+public class ControleurReservation {
+    // TODO: ajouter attributs et méthodes
+}
+>>>>>>> 94980ff7fd64e952ad36023a89fb569a76ed5df2

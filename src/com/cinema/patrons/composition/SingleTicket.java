@@ -1,5 +1,6 @@
 package com.cinema.patrons.composition;
 
+<<<<<<< HEAD
 
 
 public class SingleTicket {
@@ -55,3 +56,12 @@ public class SingleTicket {
     }
 
 }
+=======
+/**
+ * SingleTicket
+ * Membre 5
+ */
+public class SingleTicket {
+    // TODO: ajouter attributs et méthodes
+}
+>>>>>>> 94980ff7fd64e952ad36023a89fb569a76ed5df2

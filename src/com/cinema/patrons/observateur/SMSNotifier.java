@@ -10,4 +10,3 @@ public class SMSNotifier implements BookingObserver {
                 + reservation.getId() + " | " + eventType);
     }
 }
-

@@ -1,5 +1,6 @@
 package com.cinema.modele;
 
+
 /**
  * Reservation
  * Membre 5 - Couche Modèle
@@ -7,6 +8,9 @@ package com.cinema.modele;
 public class Reservation {
     // TODO: ajouter attributs et méthodes
 }
+
+public class Reservation {
+
 
     private String reservationId;
     private Utilisateur utilisateur;

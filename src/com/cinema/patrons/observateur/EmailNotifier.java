@@ -10,4 +10,3 @@ public class EmailNotifier implements BookingObserver {
                 + reservation.getId() + " | " + eventType);
     }
 }
-

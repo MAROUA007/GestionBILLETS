@@ -7,4 +7,3 @@ public interface BookingSubject {
     void removeObserver(BookingObserver observer);
     void notifyObservers(Reservation reservation, String eventType);
 }
-

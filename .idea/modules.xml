@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/GestionBILLETS.iml" filepath="$PROJECT_DIR$/GestionBILLETS.iml" />
+=======
+>>>>>>> 4055919289919b5e0cc6e2c3ac9170c6dad608a5
       <module fileurl="file://$PROJECT_DIR$/ProjetCinema_GL2.iml" filepath="$PROJECT_DIR$/ProjetCinema_GL2.iml" />
     </modules>
   </component>

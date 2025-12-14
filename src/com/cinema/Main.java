@@ -1,6 +1,8 @@
 package com.cinema;
 
+
 import com.cinema.controleur.ControleurNotification;
+
 
 import com.cinema.controleur.ControleurReservation;
 import com.cinema.modele.Utilisateur;
@@ -9,7 +11,7 @@ import com.cinema.patrons.composition.SingleTicket;
 import com.cinema.patrons.composition.TicketPackage;
 
 public class Main {
-    // TODO: ajouter attributs et méthodes
+
     public static void main(String[] args) {
         System.out.println("=== TEST DU MODULE COMPOSITION ===\n");
 
@@ -18,9 +20,11 @@ public class Main {
         ControleurReservation controleur = new ControleurReservation();
 
 
+
         // Simulation
         ControleurNotification notifController = new ControleurNotification();
         Reservation reservation = new Reservation();
+
         System.out.println("--- Test 1 : Billet simple ---");
         Reservation reservationSimple = controleur.creerReservationSimple(
                 utilisateur,
@@ -31,7 +35,9 @@ public class Main {
         );
         reservationSimple.afficherDetails();
 
+
         notifController.envoyerNotification(reservation, "CONFIRMED");
+
         System.out.println("\n--- Test 2 : Forfait famille ---");
         Reservation reservationForfait = controleur.creerReservationForfait(
                 utilisateur,
@@ -49,4 +55,8 @@ public class Main {
 
         System.out.println("\n=== TESTS TERMINÉS ===");
     }
+
 }
+
+}
+

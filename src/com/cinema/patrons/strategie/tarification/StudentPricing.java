@@ -1,9 +1,9 @@
-package com.cinema.patrons.strategie.tarification;
+package patrons.strategie.tarification;
 
-/**
- * StudentPricing
- * Membre 4
- */
-public class StudentPricing {
-    // TODO: ajouter attributs et méthodes
+public class StudentPricing implements PricingStrategy {
+    @Override
+    public double calculatePrice(double basePrice, int attendeeCount) {
+        // 20% de réduction
+        return basePrice * attendeeCount * 0.80;
+    }
 }

@@ -1,9 +1,5 @@
-package com.cinema.patrons.strategie.tarification;
+package patrons.strategie.tarification;
 
-/**
- * PricingStrategy
- * Interface - Membre 4
- */
-public class PricingStrategy {
-    // TODO: ajouter attributs et méthodes
+public interface PricingStrategy {
+    double calculatePrice(double basePrice, int attendeeCount);
 }

@@ -1,9 +1,14 @@
-package com.cinema.patrons.strategie.tarification;
+package patrons.strategie.tarification;
 
-/**
- * GroupPricing
- * Membre 4
- */
-public class GroupPricing {
-    // TODO: ajouter attributs et méthodes
+public class GroupPricing implements PricingStrategy {
+    @Override
+    public double calculatePrice(double basePrice, int attendeeCount) {
+        double total = basePrice * attendeeCount;
+        
+        // 30% de réduction pour 5+ personnes
+        if (attendeeCount >= 5) {
+            return total * 0.70;
+        }
+        return total;
+    }
 }

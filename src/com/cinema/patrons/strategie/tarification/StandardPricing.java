@@ -1,9 +1,8 @@
-package com.cinema.patrons.strategie.tarification;
+package patrons.strategie.tarification;
 
-/**
- * StandardPricing
- * Membre 4
- */
-public class StandardPricing {
-    // TODO: ajouter attributs et méthodes
+public class StandardPricing implements PricingStrategy {
+    @Override
+    public double calculatePrice(double basePrice, int attendeeCount) {
+        return basePrice * attendeeCount;
+    }
 }

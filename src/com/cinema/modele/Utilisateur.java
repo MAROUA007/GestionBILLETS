@@ -1,9 +1,38 @@
 package com.cinema.modele;
 
-/**
- * Utilisateur
- * Membre 2 - Couche Modèle
- */
+<<<<<<< HEAD
 public class Utilisateur {
-    // TODO: ajouter attributs et méthodes
-}
+        private String username;
+        private String password;
+        private Profil profil;
+
+        // Constructeur
+        public Utilisateur(String username, String password, Profil profil) {
+            this.username = username;
+            this.password = password;
+            this.profil = profil;
+        }
+
+        // Getters
+        public String getUsername() {
+            return username;
+        }
+
+        public String getPassword() {
+            return password;
+        }
+
+        public Profil getProfil() {
+            return profil;
+        }
+
+        // Affichage lisible
+        @Override
+        public String toString() {
+            return "Utilisateur{" +
+                    "username='" + username + '\'' +
+                    ", profil=" + profil +
+                    '}';
+        }
+    }
+

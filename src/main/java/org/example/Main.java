@@ -1,4 +1,6 @@
-package com.cinema;
+package main.java.org.example;
+
+import com.cinema.controleur.ControleurNotification;
 
 
 import com.cinema.controleur.ControleurReservation;
@@ -8,6 +10,7 @@ import com.cinema.patrons.composition.SingleTicket;
 import com.cinema.patrons.composition.TicketPackage;
 
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("=== TEST DU MODULE COMPOSITION ===\n");
 
@@ -15,6 +18,11 @@ public class Main {
 
         ControleurReservation controleur = new ControleurReservation();
 
+
+
+        // Simulation
+        ControleurNotification notifController = new ControleurNotification();
+        Reservation reservation = new Reservation();
 
         System.out.println("--- Test 1 : Billet simple ---");
         Reservation reservationSimple = controleur.creerReservationSimple(
@@ -25,6 +33,9 @@ public class Main {
                 "2025-04-15 20:00"
         );
         reservationSimple.afficherDetails();
+
+
+        notifController.envoyerNotification(reservation, "CONFIRMED");
 
         System.out.println("\n--- Test 2 : Forfait famille ---");
         Reservation reservationForfait = controleur.creerReservationForfait(
@@ -43,4 +54,8 @@ public class Main {
 
         System.out.println("\n=== TESTS TERMINÉS ===");
     }
+
 }
+
+
+

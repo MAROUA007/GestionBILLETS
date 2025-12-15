@@ -1,7 +1,8 @@
 package com.cinema.patrons.composition;
+
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class TicketPackage extends TicketComponent {
     private String packageName;
@@ -49,3 +50,13 @@ public class TicketPackage extends TicketComponent {
     public double getDiscount() { return discount; }
 }
 
+
+=======
+/**
+ * TicketPackage
+ * Membre 5
+ */
+public class TicketPackage {
+    // TODO: ajouter attributs et méthodes
+}
+>>>>>>> 94980ff7fd64e952ad36023a89fb569a76ed5df2

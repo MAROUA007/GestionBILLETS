@@ -1,6 +1,21 @@
 package com.cinema.modele;
 
+<<<<<<< HEAD
+
+import com.cinema.patrons.composition.TicketComponent;
+
+=======
+>>>>>>> 94980ff7fd64e952ad36023a89fb569a76ed5df2
+/**
+ * Reservation
+ * Membre 5 - Couche Modèle
+ */
+<<<<<<< HEAD
+
 public class Reservation {
+
+    public String getId() {
+    }
 
     private String reservationId;
     private Utilisateur utilisateur;
@@ -41,3 +56,8 @@ public class Reservation {
     public String getStatut() { return statut; }
     public void setStatut(String statut) { this.statut = statut; }
 }
+=======
+public class Reservation {
+    // TODO: ajouter attributs et méthodes
+}
+>>>>>>> 94980ff7fd64e952ad36023a89fb569a76ed5df2

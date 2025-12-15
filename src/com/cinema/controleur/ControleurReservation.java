@@ -1,5 +1,10 @@
 package com.cinema.controleur;
 
+<<<<<<< HEAD
+
+public class ControleurReservation {
+}
+
 
 import com.cinema.modele.Reservation;
 import com.cinema.modele.Utilisateur;
@@ -70,3 +75,13 @@ public class ControleurReservation {
         return reservation.getPrixTotal();
     }
 }
+
+=======
+/**
+ * ControleurReservation
+ * Membre 5 - Contrôleur
+ */
+public class ControleurReservation {
+    // TODO: ajouter attributs et méthodes
+}
+>>>>>>> 94980ff7fd64e952ad36023a89fb569a76ed5df2
